@@ -11,7 +11,7 @@ import HomeComponent from "@/components/home"
 import About from "@/components/about"
 import Projects from "@/components/projects"
 import Stack from "@/components/stack"
-// import Blogs from "@/components/blogs"
+import Blogs from "@/components/blogs"
 import StatueModel from "@/components/statueModel"
 import PageFooter from "@/components/pageFooter"
 import LoadingSVG from "@/assets/icon/loading.svg"
@@ -45,7 +45,7 @@ export default function Home() {
                 <HomeComponent />
                 <About />
                 <Projects />
-                {/* <Blogs /> */}
+                <Blogs />
                 <Stack />
                 <PageFooter />
               </div>
