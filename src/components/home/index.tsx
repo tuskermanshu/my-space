@@ -2,7 +2,7 @@ import { useCallback, useMemo } from "react"
 import { useInView } from "react-intersection-observer"
 import { SECTION_TYPE } from "../tabs/constants"
 
-import LEOSvg from "@/assets/letter/leo.svg"
+// import LEOSvg from "@/assets/letter/leo.svg"
 import ScrollDownSvg from "@/assets/icon/scroll-down.svg"
 
 import { MonotonFont } from "@/common/font"

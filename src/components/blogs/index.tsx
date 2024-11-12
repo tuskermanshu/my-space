@@ -1,29 +1,29 @@
-import Image from "next/image"
-import NavSvg from "@/assets/icon/navigation.svg"
-import { SECTION_TYPE } from "../tabs/constants"
-import { MonotonFont, BreeSerifFont } from "@/common/font"
-import classNames from "classnames"
+// import Image from "next/image"
+// import NavSvg from "@/assets/icon/navigation.svg"
+// import { SECTION_TYPE } from "../tabs/constants"
+// import { MonotonFont, BreeSerifFont } from "@/common/font"
+// import classNames from "classnames"
 
-const blogList = [
-  {
-    img: "/projects/paint-board.png",
-    title: "Exploring the Canvas Series: Creative Brushes Part 3",
-    date: "Apr 16, 2024",
-    link: "https://songlh.top/2024/04/16/Exploring-the-Canvas-Series-Creative-Brushes-Part-3/"
-  },
-  {
-    img: "/projects/paint-board.png",
-    title: "Exploring the Canvas Series: Creative Brushes Part 2",
-    date: "Apr 15, 2024",
-    link: "https://songlh.top/2024/04/15/Exploring-the-Canvas-Series-Creative-Brushes-Part-2/"
-  },
-  {
-    img: "/projects/paint-board.png",
-    title: "Exploring the Canvas Series: Creative Brushes Part 1",
-    date: "Apr 14, 2024",
-    link: "https://songlh.top/2024/04/14/Exploring-the-Canvas-Series-Creative-Brushes-Part-1/"
-  },
-]
+// const blogList = [
+//   {
+//     img: "/projects/paint-board.png",
+//     title: "Exploring the Canvas Series: Creative Brushes Part 3",
+//     date: "Apr 16, 2024",
+//     link: "https://songlh.top/2024/04/16/Exploring-the-Canvas-Series-Creative-Brushes-Part-3/"
+//   },
+//   {
+//     img: "/projects/paint-board.png",
+//     title: "Exploring the Canvas Series: Creative Brushes Part 2",
+//     date: "Apr 15, 2024",
+//     link: "https://songlh.top/2024/04/15/Exploring-the-Canvas-Series-Creative-Brushes-Part-2/"
+//   },
+//   {
+//     img: "/projects/paint-board.png",
+//     title: "Exploring the Canvas Series: Creative Brushes Part 1",
+//     date: "Apr 14, 2024",
+//     link: "https://songlh.top/2024/04/14/Exploring-the-Canvas-Series-Creative-Brushes-Part-1/"
+//   },
+// ]
 
 const Blogs = () => {
 

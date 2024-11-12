@@ -90,16 +90,6 @@ const Projects = () => {
                         {project.desc}
                       </span>
                     </div>
-                    {
-                      project.author && (
-                        <div className="text-base mt-2 flex">
-                          <span className="font-semibold shrink-0 w-16">Author: </span>
-                          <span className="whitespace-pre-line">
-                            {project.author}
-                          </span>
-                        </div>
-                      )
-                    }
                   </div>
 
                   <div className="w-1/2 h-fit shrink-0 sticky top-20 justify-center flex max-600:hidden dark:opacity-80">

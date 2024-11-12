@@ -83,7 +83,7 @@ const About = () => {
           {
             contactList.map((item, index) => (
               <a
-                href={item.email || item.link}
+                href={item.icon || item.link}
                 target="_blank"
                 className="p-1 border-black rounded-lg border-2 cursor-pointer hover:scale-110 transition-all dark:border-white"
                 key={index}
